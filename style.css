@@ -19,14 +19,15 @@ header {
     background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0.00) 0%);
 }
 
-.NavbarContainer,
+/* .NavbarContainer,
 .HeroContainer {
     margin: 0 100px;
-}
+} */
+
 
 .Navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding-top: 20px;
 }
@@ -66,7 +67,7 @@ header {
 .HeroContainer {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 /* .HeroContent {
@@ -113,4 +114,34 @@ header {
 .HeroImage img {
     width: 100%;
     position: right;
+}
+
+.HeroImage {
+    position: relative;
+}
+
+.HeroImageTextCard {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 200px;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+}
+
+.HeroImageTextCardTwo {
+    position: absolute;
+    top: 70%;
+    right: 70%;
+    width: 200px;
+    border-radius: 12px;
+    padding: 20px;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
 }
