@@ -145,3 +145,52 @@ header {
     background: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(10px);
 }
+
+.ChangeHabitsSection {
+    background-color: #111;
+    padding: 100px 0;
+}
+
+.ChangeHabitsTitle {
+    text-align: center;
+    width: 655px;
+    line-height: 2;
+    margin: 0 auto;
+}
+
+.ChangeHabitsTitle h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: white;
+}
+
+.ChangeHabitsTitle p {
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+}
+
+.ChangeHabitsContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+    gap: 50px;
+}
+
+.ChangeHabitsCard {
+    text-align: center;
+    color: white;
+    width: 200px;
+}
+
+.ChangeHabitsCard p {
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.ChangeHabitsCard img {
+    border-radius: 100px;
+    margin-bottom: 10px;
+}
