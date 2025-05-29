@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Inter:opsz,wght@14..32,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#text-style {
+    font-family: "Dancing Script", cursive;
+}
+
+body {}
+
+header {
+    background: linear-gradient(180deg, #111 100%, rgba(119, 119, 119, 0.00) 0%);
+}
+
+.NavbarContainer,
+.HeroContainer {
+    margin: 0 100px;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E6533C;
+    font-style: italic;
+}
+
+.NavLinks {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 3px 3px;
+    border-radius: 23px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+.NavLinks .active {
+    background-color: #E6533C;
+    padding: 6px 12px;
+    border-radius: 18px;
+}
+
+.NavLinks li {
+    font-size: 18px;
+    margin-right: 25px;
+}
+
+.NavLinks li a {
+    text-decoration: none;
+    color: white;
+}
+
+.HeroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .HeroContent {
+    width: 50%;
+} */
+
+.HeroContent h1 {
+    width: 437px;
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+}
+
+.HeroContent p {
+    width: 425px;
+    font-size: 14px;
+    font-weight: 200;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.HeroButtonOne {
+    background-color: #E6533C;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.HeroButtonTwo {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    border: 1px solid #fff
+}
+
+.HeroImage img {
+    width: 100%;
+    position: right;
+}
